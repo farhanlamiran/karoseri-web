@@ -1,0 +1,147 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Untuk teks tebal */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* Untuk teks normal */
+p, span, div {
+    font-weight: 400;
+}
+
+header {
+    background: #ce2323;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan di bawah header */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Menempatkan item flex di kanan */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Membuat ul bisa berada di tengah */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    margin-right: 20px; /* Jarak antara item menu */
+}
+
+nav ul li a {
+    font-family: 'Inter', sans-serif; /* Ganti 'Inter' dengan 'Poppins' jika menggunakan Poppins */
+    font-weight: 700; /* Gunakan 400 untuk font normal, 700 untuk font tebal */
+    text-decoration: none;
+    color: #ffffff; /* Warna teks */
+    padding: 6px;
+    display: inline;
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Warna tetap putih saat hover */
+    transition: color 0.3s;
+}
+
+.carousel-inner img {
+    height: 600px; /* Sesuaikan dengan tinggi yang diinginkan */
+}
+
+.story {
+    padding: 40px 20px;
+    background-color: #ffffff; /* Warna latar belakang yang lembut */
+    text-align: center; /* Memusatkan teks di dalam section */
+    color: #343a40; /* Warna teks yang gelap untuk kontras yang baik */
+    
+}
+
+.story h2 {
+
+    margin-bottom: 1rem; /* Memberikan jarak bawah antara judul dan paragraf */
+}
+
+.story p {
+    font-size: 1rem; /* Ukuran font standar */
+    line-height: 1.6; /* Jarak baris yang nyaman untuk dibaca */
+    margin-bottom: 2rem; /* Memberikan jarak bawah antara paragraf */
+    max-width: 800px; /* Membatasi lebar teks untuk kenyamanan membaca */
+    margin-left: auto; /* Memusatkan teks secara horizontal */
+    margin-right: auto; /* Memusatkan teks secara horizontal */
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Menjaga proporsi gambar dengan memotong tepi luar jika perlu */
+}
+
+.founders {
+    padding: 60px 60px;
+    text-align: center; 
+    background-color: #af1717; /* Warna latar belakang yang berbeda */
+}
+
+.founders h3 {
+    font-size: 2rem; /* Menyesuaikan ukuran font jika diperlukan */
+    margin-bottom: 2.5rem; /* Memberikan jarak bawah dari teks ke card */
+    color: #ffffff; /* Mengubah warna teks */
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 15px; /* Membuat sudut tumpul */
+    overflow: hidden; /* Menghilangkan bagian gambar yang melampaui batas */
+    text-align: center; /* Memusatkan teks di dalam card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 100%; /* Memastikan gambar mengisi lebar card */
+    height: auto; /* Menjaga rasio gambar agar tidak terdistorsi */
+    object-fit: cover; /* Menjaga proporsi gambar tanpa distorsi */
+}
+
+.card-body {
+    padding: 1rem; /* Memberikan padding di sekitar teks */
+}
+
+.rounded {
+    border-radius: 15px; /* Membuat sudut tumpul untuk card */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Menambahkan margin bawah untuk jarak antar card */
+}
+
